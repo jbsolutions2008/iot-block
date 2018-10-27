@@ -1,0 +1,27 @@
+/* Responsive Media Query Css Start */
+
+@media screen and (min-width: 1280px) {
+	.container {
+    	max-width: 1230px;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.container {
+    	max-width: 100%;
+  	}
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+/* Responsive Media Query Css End */
