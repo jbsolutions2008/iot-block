@@ -173,7 +173,7 @@ img {
     position: relative;
 }
 .navbar-nav .nav-item.active .nav-link, .navbar-nav .nav-item:hover .nav-link {
-    color: #ffffff;
+    color: #61b7fc;
 }
 .navbar-nav .nav-item .nav-link:before {
 	position: absolute;
@@ -238,10 +238,14 @@ img {
 /* Header Section Css Class Start */
 
 .header-section {
-  background: url(../images/header-bg.jpg) no-repeat center top #24374e;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
+  	height: 100vh;
+  	width: 100%;
+	padding-top: 115px;
+}
+
+.home-header-section {
+  	background: url(../images/header-bg.jpg) no-repeat center top #24374e;
+  	background-size: cover;
 }
 
 .logo img {
@@ -387,6 +391,110 @@ img {
 /* Case Section Css Class End */
 
 
+/* About Page Css Class Star */
+
+.about-header-section {
+  	background: url(../images/about-header-bg.jpg) no-repeat center top #24374e;
+  	background-size: cover;
+  	height: auto;
+  	width: 100%;
+}
+
+.about-services-section {
+	margin-bottom: -21%;
+}
+
+.about-header-section .about-services-item h6 {
+	color: #031d5b;
+	position: relative;
+	font-weight: 600;
+	padding-bottom: 18px;
+	margin-bottom: 20px;
+}
+
+.about-header-section .about-services-item h6:before {
+	position: absolute;
+	content: "";
+	width: 35px;
+  	height: 3px;
+	background-color: #031d5b;
+	left: 0;
+	bottom: 0;
+	border-radius: 10px;
+}
+
+.about-header-section .about-services-item p {
+	color: #5b6c94;
+	line-height: 1.56;
+}
+
+.about-services-section {
+  	border-radius: 10px;
+  	box-shadow: 0 14px 30px 0 rgba(210, 210, 210, 0.2);
+}
+
+.meet-the-team-section {
+	
+}
+
+.meet-the-team-section .team-sub-title {
+  	line-height: 1.39;
+  	color: #667382;
+	font-weight: 500;
+}
+
+.meet-the-team-section .team-item {
+	width: 100%;
+  	border-radius: 7px;
+  	border: solid 1px #d9e5f1;
+	position: relative;
+}
+
+.meet-the-team-section .team-item:hover {
+	box-shadow: 0 14px 30px 0 rgba(210, 210, 210, 0.2);
+}
+
+.team-item .shar-and-info {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.team-item .shar-and-info a {
+	color: #97a2b0;
+}
+
+.team-item .shar-and-info a:hover {
+	color: #007bff;
+}
+
+.team-item .shar-and-info i {
+	font-size: 20px;
+}
+
+.team-img-list .team-img {
+	width: 140px;
+	height: 140px;
+}
+
+.team-designation h6 {
+	font-weight: 800;
+	color: #48578c;
+}
+
+.our-smart-contract {
+  	width: 100%;
+  	max-height: 374px;
+  	border-radius: 2px;
+  	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  	background-color: #011332;
+	overflow: auto;
+}
+
+
+/* About Page Css Class End */
+
+
 /* Bottom Newslatter Section Css Class Start */
 .bottom-text-color {
 	color: #5b6c94;
@@ -417,12 +525,17 @@ footer {
 	background-color: #011332;
 }
 
-.social-media-icon {
-	display: block;
-	width: auto;
+.footer hr {
+	border-top: 1px solid #323e56;
 }
 
-.social-media-icon ul {
+.social-media-icon {
+	float: left;
+	width: auto;
+	margin-bottom: 14px;
+}
+
+.social-media-icon ul, .footer-nav ul, .footer-link ul {
 	display: block;
 	padding: 0px;
 	margin: 0px;
@@ -435,9 +548,72 @@ footer {
 	list-style-type: none;
 }
 
+.social-media-icon ul li a svg {
+	width: 47px;
+}
+
 .footer-nav {
 	float: right;
 	width: auto;
+	margin-top: 10px;
+}
+
+.footer-nav ul li {
+	float: left;
+	margin-left: 23px;
+	letter-spacing: 1px;
+	list-style-type: none;
+}
+
+.footer-nav ul li a {
+	color: #ffffff;
+}
+
+.footer-nav ul li a:hover {
+	color: #009bfa;
+}
+
+.address-text {
+	opacity: 0.67;
+	font-size: 15px;
+	letter-spacing: 0.2px;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+.footer-link {
+	float: right;
+	width: auto;
+}
+
+.footer-link ul li {
+	float: left;
+	margin-left: 23px;
+	list-style-type: none;
+}
+
+.footer-link ul li a {
+	color: #ffffff;
+	opacity: 0.5;
+}
+
+.footer-link ul li a.email {
+	color: #ffffff;
+	opacity: 1;
+}
+
+.footer-link ul li a:hover {
+	color: #009bfa;
+	opacity: 1;
+}
+
+.footer-link2 {
+	float: left;	
+}
+
+.footer-link2 ul li {
+	margin-right: 23px;
+	margin-left: 0px;
 }
 
 /* Footer Section Css Class End */
