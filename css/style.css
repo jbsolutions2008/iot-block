@@ -66,6 +66,10 @@ h6, .h6 {
 	font-weight: 700;
 }
 
+.font17 {
+	font-size: 17px;
+}
+
 .h6-sm {
 	font-size: 16px;
 	font-weight: 700;
@@ -91,6 +95,10 @@ img {
 
 .text-grey {
   color: #9cb1bf;
+}
+
+.font-weight-800 {
+	font-weight: 800;
 }
 
 .text-primary {
@@ -241,10 +249,11 @@ img {
   	height: 100vh;
   	width: 100%;
 	padding-top: 115px;
+	background-color: #24374e;
 }
 
 .home-header-section {
-  	background: url(../images/header-bg.jpg) no-repeat center top #24374e;
+  	background: url(../images/header-bg.jpg) no-repeat center top;
   	background-size: cover;
 }
 
@@ -363,11 +372,17 @@ img {
 .use-case1-img {
 	background: url(../images/diagnostics-automation.jpg) no-repeat center center;
 	background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
 }
 
 .use-case2-img {
-	background: url(../images/car-sharing-network.jpg) no-repeat center center;
+	background: url(../images/car-sharing-network.jpg) repeat-x center center;
 	background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
 }
 
 .use-case3-img {
@@ -378,6 +393,9 @@ img {
 .use-case4-img {
 	background: url(../images/crypto-mining-management.jpg) no-repeat right center;
 	background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
 }
 
 .use-case-title {
@@ -394,7 +412,7 @@ img {
 /* About Page Css Class Star */
 
 .about-header-section {
-  	background: url(../images/about-header-bg.jpg) no-repeat center top #24374e;
+  	background: url(../images/about-header-bg.jpg) no-repeat center top;
   	background-size: cover;
   	height: auto;
   	width: 100%;
@@ -491,8 +509,121 @@ img {
 	overflow: auto;
 }
 
-
 /* About Page Css Class End */
+
+
+/* Platform Page Css Class Star */
+
+.platform-header-section-left {
+  	background-image: url(../images/platform-header-shap-left.png); 
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: auto 100%;
+  	height: auto;
+  	width: 100%;
+	background-color: #011332;
+	padding-top: 0px;
+  	object-fit: contain;
+  	box-shadow: inset 0 1px 50px 0 rgba(30, 71, 143, 0.5);
+}
+
+.platform-header-section-right {
+  	background-image: url(../images/platform-header-shap-right.png); 
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 26%;
+  	height: auto;
+  	width: 100%;
+	padding-top: 115px;
+	object-fit: contain;
+  	box-shadow: inset 0 1px 50px 0 rgba(32, 74, 145, 0.2);
+}
+
+.physical-data-fingerprinting-section {
+	position: relative;
+}
+
+/*.physical-data-fingerprinting-section:before {
+	position: absolute;
+	content: "";
+	background-color: #f6fafd;
+	left: 0px;
+	right: 0px;
+	bottom: -16%;
+	width: 110%;
+	height: 350px;
+	-webkit-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	z-index: 0;
+}*/
+
+.ligh-blue-cross {
+	position: absolute;
+	background: url(../images/light-blue-cross.png) no-repeat center bottom;
+	background-size: 100% 100%;
+	left: 0px;
+	right: 0px;
+	bottom: 0%;
+	width: 100%;
+	height: 250px;
+	z-index: 0;
+}
+
+.dark-ligh-blue-cross {
+	position: absolute;
+	background: url(../images/dark-light-blue-cross.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+	left: 0px;
+	right: 0px;
+	bottom: 0%;
+	width: 100%;
+	height: 206px;
+	z-index: 0;
+}
+
+.universal-iot-registry {
+   	border-radius: 4px;
+   	box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.09);
+   	border: solid 0.5px #fafbfd;
+   	background-color: #ffffff;
+	display: inline-block;
+}
+
+.digital-identity-management {
+  	border-radius: 3px;
+  	box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
+	overflow: hidden;
+	margin-bottom: -30px;
+}
+
+.digital-identity-management:first-child {
+	width: 90%;
+}
+
+.digital-identity-management .digital-identity-img {
+	width: 97px;
+	height: 107px;
+	margin-left: -60px;
+	margin-right: 35px;
+}
+
+.digital-identity-management .digital-identity-img img {
+	float: right;
+}
+
+.digital-identity-management h6 {
+	letter-spacing: 1.1px;
+}
+
+.digital-identity-management p {
+	line-height: 1.53;
+}
+
+.middleware-section .iPad-bg-img {
+	max-width: 641px;
+}
+
+/* Platform Page Css Class Star */
 
 
 /* Bottom Newslatter Section Css Class Start */

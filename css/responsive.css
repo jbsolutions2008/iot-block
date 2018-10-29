@@ -20,10 +20,6 @@ a, button, .btn{transition: all 0.2s ease-in-out 0s;}
 100%{opacity: 1;}
 }
 
-
-
-
-
 @keyframes slideInDown {
 0% {
     transform: translate3d(0px, -100%, 0px);
@@ -264,7 +260,23 @@ a, button, .btn{transition: all 0.2s ease-in-out 0s;}
 	h3, .h3 {
 		font-size: 25px;
 	}
-	.team-sub-title-second{margin-top: 1rem;}
+	.team-sub-title-second{margin-top: 1rem;
+	}
+	.digital-identity-management {
+		margin-bottom: 15px;
+	}
+	.digital-identity-management:first-child {
+		width: 100%;
+	}
+	.digital-identity-management .digital-identity-img {
+		margin-right: 20px;
+	}
+	.ligh-blue-cross {
+		height: 60px;
+	}
+	.dark-ligh-blue-cross {
+		height: 50px;
+	}
 }
 
 @media screen and (max-width: 600px) {
